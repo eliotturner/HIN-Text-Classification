@@ -6,9 +6,9 @@
 For this program to run, there are  a few larger dependencies that cannot be included in this repo 
 but are necessary for the running of the code. This begins with our dataset the 20_newsgroups dataset. This dataset can be downloaded 
 from the link below (download the file named: 20news-19997.tar.gz). The data must be extracted, and the folder called "20_newsgroups" must be placed in the root directory of the project.</p>
-<p style="text-align:center"> <link href="http://qwone.com/~jason/20Newsgroups/">20-Newsgroups-Download</link> </p>
+<p style="text-align:center"> <a href="http://qwone.com/~jason/20Newsgroups/">20-Newsgroups-Download</a> </p>
 <p>The second dependency that must be downloaded are GloVe embeddings. This embedding can be dowloaded from the following source, and the file must be placed again in the source directory.</p>
-<p style="text-align:center"> <link href="https://www.kaggle.com/datasets/thanakomsn/glove6b300dtxt">GloVe-Download</link> </p>
+<p style="text-align:center"> <a href="https://www.kaggle.com/datasets/thanakomsn/glove6b300dtxt">GloVe-Download</a> </p>
 <h2>Code Summary</h2>
 <h3>Utils.py</h3>
 This file handles some helper function to clean up the train_rgcn file. Apart from this, its primary function is to parse through the 20_newsgroups, extract the necessary information, and create a DGL Heterograph HIN using the data for usage in training. It also provides an unused function which can display the HIN visually using Graphistry.
