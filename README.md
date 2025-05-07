@@ -16,3 +16,8 @@ This file handles some helper function to clean up the train_rgcn file. Apart fr
 <p>This file contains the model definition, and the training loop. This model instantiates the HIN using functions from Utils.py. The model, a Relational Graph Convolutional Network, is trained using the HIN and results are tracked throughout the training loop. A accuracy curve is produced as a .png, and the metrics are produced in the form of a metrics.csv and confusion_matrix.csv.</p>
 <h3>dataprep.py</h3>
 <p>This file simply calcluates class-wise, macro, and micro precision, recall, and F-1 scores. These are printed to the console.</p>
+<h2>Supplemental MATLAB Scripts</h2>
+<h3>Plot_Accuracy_Loss.mlx</h3>
+<p>This script takes the metrics.csv produced by train_rgcn and plots it in a "prettier" way.</p>
+<h3>Plot_Confusion_Matrix.mlx</h3>
+<p>This script similarly takes the confusion_matrix.csv and plots this. This results in a grid heatmap for optimal viewing</p>
