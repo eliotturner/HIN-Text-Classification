@@ -1,0 +1,15 @@
+metrics.csv
+confusion_matrix.csv
+accuracy_curve.png
+glove.6B.300d.txt
+20_newsgroups/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea/
+*.npy
+*.pt
+*.npz
+.cache/
+logs/
