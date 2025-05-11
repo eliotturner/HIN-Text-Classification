@@ -1,6 +1,6 @@
 <h1>HIN Classification using R-GCN with Metadata</h1>
 <h2>Project Summary</h2>
-<p>Our project aims to devlop a classifier which can use an HIN with and without metadata to classify emails into their respective newsgroup topics. This serves as a good example of text-classification accuracy with difficult categorization tasks. We hope to discover the effects of metadata in the classificiation of text, and see if there are relationships that can improve accuracy which are not found in the body text alone.</p>
+<p>Our project aims to develop a classifier which can use an HIN with and without metadata to classify emails into their respective newsgroup topics. This serves as a good example of text-classification accuracy with difficult categorization tasks. We hope to discover the effects of metadata in the classification of text, and see if there are relationships that can improve accuracy which are not found in the body text alone.</p>
 <h2>Necessary Downloads:</h2>
 <p>
 For this program to run, there are  a few larger dependencies that cannot be included in this repo 
